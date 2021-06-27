@@ -10,7 +10,7 @@ contract UserStorage {
 
   uint latestUserId = 0;
 
-  mapping(uint => Profile) profiles;
+  mapping(uint => Profile) public profiles;
 
   function createUser(bytes32 _username) public returns(uint) {
     latestUserId++;  
@@ -18,5 +18,5 @@ contract UserStorage {
     profiles[latestUserId] =  Profile(latestUserId, _username);
 
     return latestUserId;
-  }  
+  }
 }
