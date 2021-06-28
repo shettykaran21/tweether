@@ -1,0 +1,18 @@
+{
+  "name": "tweether",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:shettykaran21/tweether.git",
+  "author": "Karan Shetty <shettykaran2110@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next client",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "next": "^11.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "web3": "^1.3.6"
+  }
+}
